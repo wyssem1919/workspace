@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: iset.sem31.tp3.Analyseur2Test
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.547 s <<< FAILURE! - in iset.sem31.tp3.Analyseur2Test
+estValide(iset.sem31.tp3.Analyseur2Test)  Time elapsed: 0.094 s  <<< FAILURE!
+java.lang.AssertionError: Attention: le message est valide... expected:<true> but was:<false>
+	at iset.sem31.tp3.Analyseur2Test.estValide(Analyseur2Test.java:22)
+
+analyserSucces(iset.sem31.tp3.Analyseur2Test)  Time elapsed: 0.016 s  <<< FAILURE!
+org.junit.ComparisonFailure: Attention: le message contient le mot 'Succès' expected:<[SUCCES]> but was:<[ECHEC]>
+	at iset.sem31.tp3.Analyseur2Test.analyserSucces(Analyseur2Test.java:14)
+
